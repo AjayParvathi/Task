@@ -1,0 +1,56 @@
+/* .not-found{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+/* EXAM */
+.exam_form{
+    margin: 140px 20px 50px 20px;
+    padding: 25px;
+    box-shadow: 0 0 8px rgb(0 0 0 / 15%);
+    border-radius: 5px;
+  }
+  .text_area{
+    width: 98%;
+    padding: 2px 20px;
+    margin-left: 20px;
+  }
+  .q1 label,.q2 label,.q3 label,.q4 label,.q5 label,.q6 label,.q7 label{
+    padding: 0px 15px;
+  } 
+  .answers{
+    margin-right: 8px;
+  }
+  label{
+    cursor: pointer;
+  }
+  .form-check-label{
+    margin-left: 0px !important;
+  }
+  .exam_form_heading h3 {
+    color: blue;
+    font-weight: 600;
+  }
+  .exam_form_heading p{
+     text-align: center;
+  }
+  .Back_button
+  {
+      /* background-color: blue; */
+      color: #fff !important;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .table > :not(:first-child) {
+    border-top: none !important;
+}
+  /* EXAM */
